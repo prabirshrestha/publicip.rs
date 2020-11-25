@@ -6,6 +6,7 @@ edition = "2018"
 license = "MIT"
 repository = "https://github.com/prabirshrestha/publicip.rs"
 description = "Get the public ipv4 or ipv6 address"
+readme = "./README.md"
 
 [[bin]]
 doc = false
