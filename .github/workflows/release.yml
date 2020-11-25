@@ -67,7 +67,6 @@ jobs:
     env:
       # Emit backtraces on panics.
       RUST_BACKTRACE: short
-      CC: deny_c
     strategy:
       matrix:
         build: [linux, linux-arm, macos, win-msvc]
