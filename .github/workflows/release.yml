@@ -66,7 +66,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     env:
       # Emit backtraces on panics.
-      RUST_BACKTRACE: 1
+      RUST_BACKTRACE: short
+      CC: deny_c
     strategy:
       matrix:
         build: [linux, linux-arm, macos, win-msvc]
