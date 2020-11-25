@@ -21,4 +21,4 @@ exe = []
 [dependencies]
 async-std = { version ="1.7.0", features = ["attributes"] }
 structopt = "0.3.20"
-surf = "2.1.0"
+surf = { version = "2.1.0", features = ["h1-client"] }
