@@ -11,6 +11,7 @@ jobs:
     env:
       # Emit backtraces on panics.
       RUST_BACKTRACE: 1
+      CC: deny_c
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
