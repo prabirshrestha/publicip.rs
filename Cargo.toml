@@ -1,16 +1,16 @@
 [package]
-name = "public-ip"
+name = "publicip"
 version = "0.1.0"
 authors = ["Prabir Shrestha <mail@prabir.me>"]
 edition = "2018"
 license = "MIT"
-repository = "https://github.com/prabirshrestha/public-ip.rs"
+repository = "https://github.com/prabirshrestha/publicip.rs"
 description = "Get the public ipv4 or ipv6 address"
 
 [[bin]]
 doc = false
-name = "public-ip"
-path = "src/bin/public-ip.rs"
+name = "publicip"
+path = "src/bin/publicip.rs"
 required-features = ["exe"]
 
 [features]
