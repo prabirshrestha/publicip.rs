@@ -1,4 +1,4 @@
-# [publicip]
+# publicip
 Get your public IP addreess
 
 ## Install
