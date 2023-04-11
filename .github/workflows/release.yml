@@ -100,7 +100,7 @@ jobs:
         fetch-depth: 1
 
     - name: Get release download URL
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v3
       with:
         name: artifacts
         path: artifacts
