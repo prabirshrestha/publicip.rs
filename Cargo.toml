@@ -19,6 +19,6 @@ default = ["exe"]
 exe = []
 
 [dependencies]
-async-std = { version ="1.7.0", features = ["attributes"] }
+async-std = { version ="1.12.0", features = ["attributes"] }
 structopt = "0.3.20"
 surf = "2.1.0"
